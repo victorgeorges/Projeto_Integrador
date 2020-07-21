@@ -1,0 +1,91 @@
+
+form{
+
+    border: 5px solid black ;   
+    border-bottom: hidden;
+    border-top: hidden;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    width: 700px;
+    border-radius:150px;
+    padding-top:   75px;
+    padding-left: 190px;
+    font-size: 15px;
+}
+#juntando{
+    display: flex;    
+}
+
+#foto{
+
+    width: auto;
+    height: auto;
+    height: 250px;
+    margin-top: 90px;
+    padding-top: 120px;
+    padding-left: 30px;
+    opacity: 0.4;
+    transition: 1000ms;
+}
+#foto:hover{
+    opacity: 1;    
+}
+
+#but{
+    margin-top: 30px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+@media (max-height: 320px) {
+    video{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 350px;
+    }
+
+    img{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        height: 350px;
+    }
+    h1 img{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 350px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    video{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 350px;
+    }
+
+    img{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        height: 350px;
+    }
+    h1 img{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 350px;
+        padding-top: 50px;
+    }
+}
